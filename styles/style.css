@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&family=Dancing+Script:wght@400..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  width: 100%;
+  min-height: 100%;
+  background-color: black;
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Dancing Script", cursive;
+}
+
+p, a {
+  font-family: "Bad Script", cursive;
+}
+
+.folder {
+  width: 600px;
+}
+
+.paper {
+  background-color: antiquewhite;
+  padding: 30px;
+}
+.paper .session {
+  width: 100%;
+}
+.paper .session hr {
+  margin: 10px;
+}
+.paper header {
+  text-align: left;
+}
+
+.polaroid {
+  height: 200px;
+  background-color: white;
+  padding: 8px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  position: relative;
+}
+.polaroid img {
+  width: 96%;
+  height: 75%;
+  object-fit: cover;
+  background: linear-gradient(45deg, #eeeeee, #cccccc);
+}
+.polaroid figcaption {
+  font-family: "Bad Script", cursive;
+  width: 100%;
+  text-align: center;
+  margin: 10px 0px;
+  font-size: 0.8rem;
+}
+.polaroid .clip {
+  position: absolute;
+  background: none;
+  width: 90px;
+  height: 90px;
+}
+
+.curved-left {
+  float: left;
+  transform: translateX(-16px) rotateZ(-2deg);
+  box-shadow: -1px 1px 1px black;
+}
+.curved-left .clip {
+  top: -24px;
+  left: -46px;
+  transform: rotateZ(120deg);
+}
+
+.curved-right {
+  float: right;
+  transform: translateX(16px) rotateZ(2deg);
+  box-shadow: 1px 1px 1px black;
+}
+.curved-right .clip {
+  top: -24px;
+  right: -46px;
+  transform: rotateZ(50deg);
+}
+
+.element-box {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  border: 5px solid white;
+}
+.element-box * {
+  width: 100%;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+}
+.element-box .element-atomic-number {
+  margin: 4px 0px 0px 4px;
+  text-align: left;
+}
+.element-box .element-symbol {
+  font-size: 4rem;
+}
+.element-box .element-name {
+  font-size: 1.2rem;
+}
+.element-box .element-atomic-mass {
+  font-size: 0.7rem;
+}
+
+/*# sourceMappingURL=style.css.map */

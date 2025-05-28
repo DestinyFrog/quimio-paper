@@ -1,0 +1,49 @@
+@use "sass:map";
+.hidrogenio {
+  background-color: #8c0250;
+}
+
+.metal_alcalino {
+  background-color: #f5a80b;
+}
+
+.metal_alcalino_terroso {
+  background-color: #ff6600;
+}
+
+.metal_de_transicao {
+  background-color: #970700;
+}
+
+.ametal {
+  background-color: #008000;
+}
+
+.semimetal {
+  background-color: #aa007a;
+}
+
+.outros_metais {
+  background-color: #ff007f;
+}
+
+.halogenio {
+  background-color: #304ee6;
+}
+
+.gas_nobre {
+  background-color: #7525FA;
+}
+
+.lantanideo {
+  background-color: #054f77;
+}
+
+.actinideo {
+  background-color: #4169e1;
+}
+
+.desconhecido {
+  background-color: #333333;
+}
+/*# sourceMappingURL=tags.css.map */
