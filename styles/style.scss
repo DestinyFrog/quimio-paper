@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Bad Script", cursive;
 }
 
 body {
@@ -19,38 +19,48 @@ body {
     margin-top: 20px;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     font-family: 'Dancing Script', cursive;
 }
 
-p, a {
-    font-family: "Bad Script", cursive;
-}
-
-sub, sup {
+sub,
+sup {
     font-family: inherit;
 }
 
-aside {
+#summary {
     background-color: white;
     position: fixed;
     top: 0;
     left: 0;
-    width: 100px;
+    height: 100vh;
+    padding: 10px;
+
+    * {
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    ul {
+        margin-top: 10px;
+    }
+
+    li {
+        margin-left: 1.25rem;
+    }
 }
 
 .folder {
-    // position: relative;
-    width: 600px;
+    width: 700px;
 
 }
 
 .paper {
-    // position: absolute;
-    // top: 0;
-    // left: 0;
     background-color: antiquewhite;
     padding: 30px;
+    // margin-bottom: 20px;
 
     .session {
         width: 100%;
@@ -104,7 +114,7 @@ aside {
     float: left;
     transform: translateX(-16px) rotateZ(-2deg);
     box-shadow: -1px 1px 1px black;
-    
+
     .clip {
         top: -24px;
         left: -46px;
@@ -154,4 +164,12 @@ aside {
     .element-atomic-mass {
         font-size: 0.7rem;
     }
+}
+
+.frame {
+    border: 3px double black;
+}
+
+.rounded {
+    border-radius: 50%;
 }
